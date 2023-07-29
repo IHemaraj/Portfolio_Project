@@ -1,12 +1,9 @@
+--With help of Alex The Analyst i've completed this project
+--For Data Exploration first we need to take a look at dataset
+
 SELECT *
-FROM portfolioproject..CovidDeaths
-WHERE continent is not NULL
+FROM portfolioproject..CovidVaccinations
 order by location, date
-
-
---SELECT *
---FROM portfolioproject..CovidVaccinations
---order by location, date
 
 --select the data which we are going to use(location,date,total_cases,total_deaths,population)
 
